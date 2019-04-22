@@ -123,6 +123,12 @@
             <version>3.2.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.phoenix/phoenix-spark -->
+        <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-spark</artifactId>
+            <version>4.11.0-HBase-0.98</version>
+        </dependency>
 
         <!--连接 Redis 需要的包-->
         <dependency>
@@ -134,7 +140,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version>
+            <version>5.1.46</version>
         </dependency>
         <dependency>
             <groupId>com.google.collections</groupId>
